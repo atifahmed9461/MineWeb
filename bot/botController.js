@@ -34,7 +34,7 @@ function createBot(options) {
     botOptions.password = options.password;
   }
 
-  console.log(`Connecting to ${options.host}:${options.port} as ${options.username} using ${authType} authentication`);
+  console.log(`Connecting to ${options.host}:${options.port}`);
   const bot = mineflayer.createBot(botOptions);
   
   // Set up basic behaviors
