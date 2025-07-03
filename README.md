@@ -31,8 +31,8 @@ Easily manage, monitor, and interact with your Minecraft server bot in real-time
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/atifahmed9461/mineweb.git
-   cd mineweb
+   git clone https://github.com/atifahmed9461/MineWeb.git
+   cd MineWeb
    ```
 
 2. **Install dependencies (for both backend and frontend):**
