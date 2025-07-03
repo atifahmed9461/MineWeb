@@ -1,0 +1,25 @@
+{
+  "name": "minecraft-bot-web",
+  "version": "1.0.0",
+  "description": "Minecraft Player Bot with Web Interface",
+  "main": "index.js",
+  "scripts": {
+    "dev:bot": "nodemon bot/index.js",
+    "dev:web": "cd web && npm run dev",
+    "dev": "concurrently \"npm run dev:bot\" \"npm run dev:web\"",
+    "start:bot": "node bot/index.js",
+    "start:web": "cd web && npm run start",
+    "start": "concurrently \"npm run start:bot\" \"npm run start:web\"",
+    "setup": "npm install && cd web && npm install"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mineflayer": "^4.14.0",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.0.1"
+  }
+} 
